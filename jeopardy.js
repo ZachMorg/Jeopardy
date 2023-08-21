@@ -208,7 +208,6 @@ startButton.addEventListener('click', setupAndStart);
 
 
 //Suggestions and improvements
-Improvements and Suggestions:
 
    //1.  Consider providing a clearer introduction or description of what the code does at the beginning of the script.
    //2.  The comments and console logs throughout the code can be quite helpful during development but should ideally be removed or reduced in a production environment to avoid clutter.
