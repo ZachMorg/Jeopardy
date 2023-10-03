@@ -47,7 +47,7 @@ function randomNumber(){
  */
 
 async function getCategoryIds(ranOffset) {
-    let res = await axios.get(`http://jservice.io/api/categories?count=100&offset=${ranOffset}`);
+    let res = await axios.get(`https://cors-anywhere.herokuapp.com/http://jservice.io/api/categories?count=100&offset=${ranOffset}`);
     let fullList = res.data;
     let randomList = [];
     let sortedList = [];
@@ -86,7 +86,7 @@ async function getCategoryIds(ranOffset) {
 async function getCategory(catIds) {
     let dataList = [];
     for(let id of catIds){
-        let res = await axios.get(`http://jservice.io/api/category?id=${id}`);
+        let res = await axios.get(`https://cors-anywhere.herokuapp.com/http://jservice.io/api/category?id=${id}`);
         dataList.push(res.data);
     }
     console.log(dataList);
