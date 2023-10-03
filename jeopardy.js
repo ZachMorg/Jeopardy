@@ -204,3 +204,13 @@ startButton.addEventListener('click', setupAndStart);
 
 /** On page load, add event handler for clicking clues */
 
+
+
+
+//Suggestions and improvements
+
+   //1.  Consider providing a clearer introduction or description of what the code does at the beginning of the script.
+   //2.  The comments and console logs throughout the code can be quite helpful during development but should ideally be removed or reduced in a production environment to avoid clutter.
+   //3.  Consider modularizing your code further by separating the functions into their own JavaScript files. 
+   //4.  Consider adding a scoring system, timer, and player interactions to make the game more engaging.
+   //5.  Implement a feature that allows players to select different difficulty levels or categories.
